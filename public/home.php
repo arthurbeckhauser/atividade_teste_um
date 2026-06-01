@@ -12,6 +12,7 @@ include("../infra/db/connect.php");
 
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
+    //quando o formulário é enviado, os dados são recebidos e inseridos na tabela usuarios
     $novoUsuario = $_POST['usuario'];
     $novaSenha = $_POST['senha'];
 
