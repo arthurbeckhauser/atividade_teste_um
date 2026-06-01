@@ -53,6 +53,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             if(isset($erro)){
                 echo $erro;
             };
+            //permite cadastrar novos usuários informando usuário e senha
         
         ?>
         <br>
