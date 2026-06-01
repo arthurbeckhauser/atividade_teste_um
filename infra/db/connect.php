@@ -15,4 +15,4 @@
         echo "<script>console.log('Banco conectado com sucesso!')</script>";
     };
 
-?>
+?> 
