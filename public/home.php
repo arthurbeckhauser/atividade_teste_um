@@ -8,6 +8,9 @@ if(!isset($_SESSION["usuario"])){
 
 include("../infra/db/connect.php");
 
+
+
+
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $novoUsuario = $_POST['usuario'];
     $novaSenha = $_POST['senha'];
