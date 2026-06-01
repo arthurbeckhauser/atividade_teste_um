@@ -44,7 +44,7 @@
                 echo $erro;
             };
 
-            // esse erro serve ara alguma coisa
+            //le verifica se a variável $erro existe e, caso exista, exibe sua mensagem na tela
         
         ?>
         <br>
